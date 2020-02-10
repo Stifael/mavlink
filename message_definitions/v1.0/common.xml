@@ -5200,7 +5200,7 @@
       <field type="uint8_t" name="count">Number of wheels reported.</field>
       <field type="double[16]" name="distance" units="m">Distance reported by individual wheel encoders. Forward rotations increase values, reverse rotations decrease them. Not all wheels will necessarily have wheel encoders; the mapping of encoders to wheel positions must be agreed/understood by the endpoints.</field>
     </message>
-    <message id="9002" name="SET_ATTITUDE_VELOCITY_Z_TARGET">
+    <message id="9030" name="SET_ATTITUDE_VELOCITY_Z_TARGET">
       <description>Sets a desired vehicle attitude and altitude. Used by an external controller to command the vehicle (manual controller or other system).</description>
       <field type="uint32_t" name="time_boot_ms" units="ms">Timestamp (time since system boot).</field>
       <field type="uint8_t" name="target_system">System ID</field>
